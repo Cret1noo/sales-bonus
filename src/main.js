@@ -125,7 +125,7 @@ function analyzeSalesData(data, options) {
 
     // @TODO: Подготовка итоговой коллекции с нужными полями
     return sellerStats.map((seller) => ({
-    seller_id: seller.id,
+    seller_id: seller.seller_id,
     name: seller.name, 
     revenue: +seller.revenue.toFixed(2),
     profit: +seller.profit.toFixed(2), 
